@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rarityextended",
+  "version": "${version}",
+
+  "name": "RarityExtended",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "GPL-3.0",
+  "icon": "assets/rarityextended/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["org.rarityextended.Rarityextended"]
+  },
+
+  "mixins": [
+    "rarityextended.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
