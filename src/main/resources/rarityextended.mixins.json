@@ -4,17 +4,6 @@
   "package": "org.rarityextended.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ArmorMixin",
-    "extensions.ItemMixin",
-    "Tools.AxeMixin",
-    "Tools.FishingRodMixin",
-    "Tools.HoeMixin",
-    "Tools.PickaxeMixin",
-    "Tools.ShovelMixin",
-    "Weapons.BowMixin",
-    "Weapons.CrossbowMixin",
-    "Weapons.SwordMixin",
-    "Weapons.TridentMixin"
   ],
   "client": [
   ],
